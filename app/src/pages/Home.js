@@ -5,10 +5,10 @@ export default class Home extends Component {
   render() {
     return (
       <View style={styles.page}>
-        <View style={styles.spacer} />
         <View style={styles.welcomeContainer}>
           <Text style={styles.welcomeTitle}>Bienvenue</Text>
         </View>
+        <View style={styles.spacer} />
       </View>
     );
   }

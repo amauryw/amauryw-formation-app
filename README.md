@@ -1,1 +1,1 @@
-#Formation {AmauryW}
+#Formation AmauryW

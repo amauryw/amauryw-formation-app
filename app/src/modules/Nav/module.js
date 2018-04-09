@@ -1,6 +1,6 @@
 // @flow
 
-import { AppNavigator } from 'Y/src/RootNavigation';
+import { AppNavigator } from 'app/src/RootNavigation';
 import {
   createReduxBoundAddListener,
   createReactNavigationReduxMiddleware,

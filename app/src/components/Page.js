@@ -2,7 +2,7 @@
 
 import React, { PropTypes } from 'react';
 import { View, StyleSheet } from 'react-native';
-import theme from 'Y/src/theme';
+import theme from 'app/src/theme';
 
 const styles = StyleSheet.create({
   page: {

@@ -1,7 +1,7 @@
 // @flow
 
 import { StyleSheet, Text, View } from 'react-native';
-import theme from 'Y/src/theme';
+import theme from 'app/src/theme';
 
 export default StyleSheet.create({
   container: {

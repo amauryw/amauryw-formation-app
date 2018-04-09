@@ -3,7 +3,7 @@
 import React, { Component } from 'react';
 import { Text, View } from 'react-native';
 
-import { Page } from 'Y/src/components';
+import { Page } from 'app/src/components';
 
 import styles from './Home.style';
 

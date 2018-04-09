@@ -5,8 +5,8 @@ import { connect } from 'react-redux';
 
 import { StackNavigator, addNavigationHelpers } from 'react-navigation';
 
-import * as Pages from 'Y/src/pages';
-import { navListener } from 'Y/src/modules/Nav/module';
+import * as Pages from 'app/src/pages';
+import { navListener } from 'app/src/modules/Nav/module';
 
 export const AppNavigator = StackNavigator({
   home: {

@@ -7,6 +7,8 @@ import {
   TouchableOpacity
 } from "react-native";
 
+import theme from "../theme";
+
 export default class Home extends Component {
   render() {
     return (
@@ -20,7 +22,7 @@ export default class Home extends Component {
               placeholder="Entrez votre prénom"
               blurOnSubmit={false}
               returnKeyType="done"
-              placeholderTextColor="#757375"
+              placeholderTextColor="black"
               underlineColorAndroid="transparent"
               style={styles.nameField}
             />
@@ -46,7 +48,7 @@ const styles = StyleSheet.create({
     alignItems: "center"
   },
   welcomeTitle: {
-    color: "#49A698",
+    color: theme.colors.primary,
     fontSize: 30
   },
   spacer: {
@@ -60,7 +62,7 @@ const styles = StyleSheet.create({
   button: {
     flex: 1,
     height: 44,
-    backgroundColor: "#49A698",
+    backgroundColor: theme.colors.primary,
     justifyContent: "center",
     borderRadius: 10,
     paddingHorizontal: 10
@@ -70,7 +72,7 @@ const styles = StyleSheet.create({
     color: "white"
   },
   nameField: {
-    backgroundColor: "#FAF7F7",
+    backgroundColor: theme.colors.button,
     height: 44,
     textAlign: "center"
   },

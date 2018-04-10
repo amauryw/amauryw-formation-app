@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View, StyleSheet, TextInput } from "react-native";
 
 export default class Home extends Component {
   render() {
@@ -7,6 +7,16 @@ export default class Home extends Component {
       <View style={styles.page}>
         <View style={styles.welcomeContainer}>
           <Text style={styles.welcomeTitle}>Bienvenue</Text>
+        </View>
+        <View style={styles.nameInput}>
+          <TextInput
+            placeholder="Entrez votre prénom"
+            blurOnSubmit={false}
+            returnKeyType="done"
+            placeholderTextColor="#757375"
+            underlineColorAndroid="transparent"
+            style={styles.nameField}
+          />
         </View>
         <View style={styles.spacer} />
       </View>
@@ -29,6 +39,16 @@ const styles = StyleSheet.create({
     fontSize: 30
   },
   spacer: {
-    flex: 2
+    flex: 1
+  },
+  nameField: {
+    backgroundColor: "#FAF7F7",
+    height: 44,
+    textAlign: "center"
+  },
+  nameInput: {
+    flex: 1,
+    justifyContent: "center",
+    paddingHorizontal: 10
   }
 });
